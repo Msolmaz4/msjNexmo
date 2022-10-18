@@ -16,6 +16,7 @@ app.get('/',(req,res)=>{
 
 //statik dosyalarin diyini belirtme
 
+app.use(express.static(__dirname + '/static'))
 
 
 //dinleme
